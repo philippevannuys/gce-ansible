@@ -1,0 +1,4 @@
+- name: Create instance(s)
+  hosts: localhost
+  gather_facts: no
+  connection: local

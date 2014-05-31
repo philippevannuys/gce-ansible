@@ -1,7 +1,7 @@
 - name: Launch instances
   local_action: gce 
   args:
-    instance_names: master1,master2,master3
+    instance_names: "{{ cloud['instance_names'] }}"
     machine_type: "{{ cloud['machine_type'] }}"
     image: "{{ cloud['image'] }}"
     service_account_email: "{{ cloud['service_account_email'] }}"

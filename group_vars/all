@@ -1,7 +1,7 @@
 ---
 cloud :
    image : centos-6-v20140415
-   machine_type : f1.micro
+   machine_type : f1-micro
    service_account_email : 1073245602432-pbvubf1paump5lmp4gulskivukjhv05t@developer.gserviceaccount.com
    pem_file : /Users/orenault/.ssh/gce.pem
-   project_id : ambari-blueprint
+   project_id : ambari-blueprint-1

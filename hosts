@@ -1,2 +1,5 @@
 [localhost]
 localhost
+
+[ambari]
+{{ hostvars[groups['master'][0]]['ansible_hostname'] }}

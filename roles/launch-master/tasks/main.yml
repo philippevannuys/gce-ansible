@@ -15,5 +15,5 @@
   with_items: gce.instance_data
 
 - name: Add instances to master group
-  local_action: add_host hostname={{ item.public_ip }} groupname=master
+  local_action: add_host hostname={{ item.gce_name }} groupname=master
   with_items: gce.instance_data 
